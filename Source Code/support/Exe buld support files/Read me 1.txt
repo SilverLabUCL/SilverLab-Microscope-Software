@@ -1,0 +1,1 @@
+Delete this file and replace it with the "Setup.ini" file for the standalone application to work.

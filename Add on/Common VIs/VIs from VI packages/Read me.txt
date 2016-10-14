@@ -1,0 +1,6 @@
+Install the OpenG and MGI packages using VI Package Manager (VIPM).
+
+VIPM installs by default with the most recent LabVIEW versions.
+
+If unavailable, download from http://vipm.jki.net/
+

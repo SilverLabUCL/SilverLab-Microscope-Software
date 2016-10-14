@@ -1,0 +1,17 @@
+Copyright © 2016, UCL. All rights reserved.
+
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION of 
+SilverLab AOL microscopy software 1.x
+SilverLab AOL microscopy software  1.x  is Free software created by The Silver Lab at University College London.
+1. Granting of Copyright License
+By the secured provision of this software, UCL grants your entity (an individual, scientific laboratory or company) a license for SilverLab 1.x, subject to the following terms and conditions.
+2. Usage and Reproduction Rights
+Reproductions or modifications of the source code elements of the software is expressly permitted for internal use and research by your entity. Reproductions of the object and encrypted code elements of the software is expressly permitted for internal use and research by your entity.
+3. Restrictions on Distribution
+Distribution of this software - in whole or part, with or without modification, as source or binary - is strictly prohibited without the express written permission of UCL.  
+4. Disclaimer of Warranty
+This software is provided on an "as is" basis without warranties or conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, non-infringement, merchant-ability, or fitness for a particular purpose. Your entity is solely responsible for determining the appropriateness of using the software and assumes any risks associated with your exercise of permissions under this License.
+ 
+5. Limitation of Liability
+In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall UCL be liable to your entity for  damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this license or out of the use or inability to use the software (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, microscope failure or malfunction or any and all other commercial damages or losses), even if UCL has advised of the possibility of such damages.  UCL will not be providing any technical support with this copyright license.
