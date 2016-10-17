@@ -4,6 +4,7 @@ The Silver Lab Microscopy Software is mostly written in LabVIEW. It has been dev
 
 Microscope Software was created by The Silver Lab - R. Angus Silver - Department of Neuroscience, Physiology & Pharmacology - University College London - Gower Street - London WC1E 6BT – UK. http://silverlab.org/
 
+Code written by Srinivas Nadella, Theo Koimtzis, Vicki Griffiths and Geoffrey Evans.
 For more information, contact Srinivas Nadella (k.nadella@ucl.ac.uk)
 
 
