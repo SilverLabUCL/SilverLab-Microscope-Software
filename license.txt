@@ -2,8 +2,8 @@ Copyright © 2016, UCL. All rights reserved.
 
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION of 
-SilverLab AOL microscopy software 1.x
-SilverLab AOL microscopy software  1.x  is Free software created by The Silver Lab at University College London.
+SilverLab AOL microscopy software 1.x and later versions
+SilverLab AOL microscopy software  1.x and later versions is Free software created by The Silver Lab at University College London.
 1. Granting of Copyright License
 By the secured provision of this software, UCL grants your entity (an individual, scientific laboratory or company) a license for SilverLab 1.x, subject to the following terms and conditions.
 2. Usage and Reproduction Rights
