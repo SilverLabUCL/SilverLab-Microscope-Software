@@ -1,0 +1,117 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>9.0.1</Version>
+NeuroImage_P2_V1.2.3.2.viZ -Range for the Stack  30 -30
+<Cluster>
+<Name>Scan Parameters</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>DAQ Resolution</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>AOD Parameters</Name>
+<NumElts>18</NumElts>
+<I16>
+<Name>Nvox</Name>
+<Val>200</Val>
+</I16>
+<I8>
+<Name>Zoom</Name>
+<Val>1</Val>
+</I8>
+<DBL>
+<Name>Xc</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Yc</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Acceptance Angle</Name>
+<Val>4.35000000000000</Val>
+</DBL>
+<I32>
+<Name>AOD Central Frequency</Name>
+<Val>35</Val>
+</I32>
+<DBL>
+<Name>movex</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>movey</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>astig</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>p</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Dwell Time</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<SGL>
+<Name>Z Position</Name>
+<Val>0.00000</Val>
+</SGL>
+<DBL>
+<Name>xoma</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>xoda</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>yoma</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>yoda</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Nx</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>msReduce</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Controls Cluster</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Pockels Control</Name>
+<Val>0.40999999977648</Val>
+</DBL>
+<I32>
+<Name>PMT1</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PMT2</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>No of Averages</Name>
+<Val>1</Val>
+</I32>
+<DBL>
+<Name>Pockels</Name>
+<Val>655.55017045813452</Val>
+</DBL>
+<DBL>
+<Name>Back Aperture</Name>
+<Val>23.86202620467610</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LVData>

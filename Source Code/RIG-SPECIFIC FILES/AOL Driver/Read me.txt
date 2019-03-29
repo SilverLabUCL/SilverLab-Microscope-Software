@@ -1,1 +1,0 @@
-During exe builds the AOL Driver folder is automatically placed in \builds\Executable\RIG-SPECIFIC FILES\AOL Driver, overwritting existing files in that folder.

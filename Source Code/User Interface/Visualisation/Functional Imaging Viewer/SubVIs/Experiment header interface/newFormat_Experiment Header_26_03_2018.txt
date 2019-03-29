@@ -1,0 +1,147 @@
+[LOGIN]
+User = "Default"
+Profile = "Profile 1"
+Imaging Software Version = 1.000000
+Experiment Date_Time = 
+
+[GLOBAL PARAMETERS]
+Microscope ID =
+Microscope Type =
+Objective = "Olympus 20X"
+Field of View (um) = 250
+fill time (us) = 24.475
+Experiment Type = invivo/invitro
+Video Recording = FALSE
+Stimuli Type = Puff/Electro/Visual/
+Stimuli Trigger = FALSE
+Speed Logging = FALSE
+Type of Stimuli = "Electro/Visual/Puff/Others"
+
+[IMAGING MODES]
+Time Series = FALSE
+Motor Zstack = FALSE
+AOL Zstack = TRUE
+Functional Imaging = TRUE
+
+[TIME SERIES]
+Wavelength (nm) = 800.000000
+# averaged frames = 5.000000
+laser power (%) = 20.000000
+dwelltime (us) = 0.050000
+pmt 1 = 445.000000
+pmt 2 = 600.000000
+back apperture = -1.000000
+zoom = 1.000000
+frame size = 512.000000
+x centre = 0.000000
+y centre = 0.000000
+aol z = -0.000014
+
+[MOTOR Z-STACK]
+Wavelength (nm) = 800.000000
+# averaged frames = 5.000000
+laser power (%) = 20.000000
+pockels = -1.000000
+dwelltime (us) = 0.050000
+pmt 1 = 445.000000
+pmt 2 = 600.000000
+back apperture = -1.000000
+zoom = 1.000000
+frame size = 512.000000
+x centre = 0.000000
+y centre = 0.000000
+Z start (um) = -100.0000
+Z stop (um) = 100.0000
+number of Planes = 20.00000
+
+[AOL Z-STACK]
+Wavelength (nm) = 800.000000
+# averaged frames = 5.000000
+laser power (%) = 20.000000
+pockels = -1.000000
+dwelltime (us) = 0.050000
+pmt 1 = 445.000000
+pmt 2 = 600.000000
+back apperture = -1.000000
+zoom = 1.000000
+frame size = 512.000000
+x centre = 0.000000
+y centre = 0.000000
+Z start (um) = -100.0000
+Z stop (um) = 100.0000
+number of Planes = 20.00000
+
+[FUNCTIONAL IMAGING]
+Functional Mode = "Point/Line/Patch/Plane/Volume"
+pockels modulation = TRUE
+Wavelength (nm) = 800.000000
+number of poi = 0.000000
+number of miniscans = 305.000000
+number of cycles = 1660.000000
+number of trials = 1.000000
+number of pixels in miniscans = 600
+laser power (%) = 20.000000
+pockels = -1.000000
+acquisition length (sec) = 19.998850
+miniscan dwell time per pixel (us) = 0.100000
+poi dwelltime (us) = 4.000000  
+pmt 1 = 445.000000
+pmt 2 = 600.000000
+back apperture = -1.000000
+zoom = 1.000000
+number of pixels in miniscan = 150.000000
+frame size = 512.000000
+field of view = 350.000000
+rectangle roi length (pixels) = 150.000000
+rectangle roi height (pixels) = 61.000000
+aol mode = 0.000000
+angle (degrees) = 0.000000
+plane mode = 0.000000
+video length (sec) = 0.000000
+frame rate (fps) = 0.000000
+Stimuli Timing (usec) = 0.000000
+
+[MOVEMENT CORRECTION]
+MovCor Enabled? = FALSE
+Axial Ref Enabled? = FALSE
+Reference Size = ""
+Reference Channel =
+Reference dwelltime (us) = 
+Number of Z lines = 
+Size of Z pixel =
+Axial Pixels = 
+Reference Zoom = 
+Reference Average =
+Proportional Scale =
+Integral Scale =
+Proportional Scale Z =
+Integral Scale Z =
+Scan Interval = 
+Ref Plot Refresh Rate =
+
+[CALIBRATION]
+Pockels calibration file = "Pockels Cal-17_09_2015 16-16-47.txt"
+Calibration_ini file =
+Setup_ini file = 
+
+[STATISTICS]
+Z-stack duration (sec) = 3.865221
+Number of acquired data-points = 75945000.000000
+Acquisition time (ms) = 19998.850000
+Number of acquired frames = 8300.000000
+
+[BIOLOGY INFORMATION]
+Animal Code or Name:
+Animal DoB:
+Animal Age:
+Animal Sex:
+Animal Weight:
+Date of InJection:
+Date of Implant:
+Site of Injection:
+Animal Ear Notch:
+AAV constructs:
+Genetic background:
+Optical reporter:
+Region of brain imaged:
+Other comments:

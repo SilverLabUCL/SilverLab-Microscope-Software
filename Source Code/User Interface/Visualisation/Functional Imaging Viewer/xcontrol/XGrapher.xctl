@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<XControl LVVersion="13008000">
+<XControl LVVersion="17008000">
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)L!!!*Q(C=\&gt;3R=&gt;N!%)8B*Y]$J_T!QR9W:M97W-+WQ&amp;1B7^A7W!*&lt;?#WQ"&lt;9!`TCM+3A2(&amp;AT#A4I+/,&gt;9?`$!91UNF`34UV&lt;W_($D@ZZ0]Q$F]&amp;4(YXU&lt;`_IUNGTK`P@"KY/FC,L]Z]H4/NS\_9`L%;_^7`YNT:^O(XX@`&gt;`\@\NR`NV_U@QO:PU-K1UUYK7N"B8.ZH=Z#9XO=F.8O2&amp;8O2&amp;8O2&amp;HO2*HO2*HO2*(O2"(O2"(O2"0H:SE9N=Z+S+G&gt;R-:)K;!G9Q&amp;*E0YT%?YT%?$G5]RG-]RG-]$*(R')`R')`R=*K-RXC-RXC-BV*$YL'4YT%?SKPQ&amp;*\#5XA+$V/K]"3!9L+C=&amp;%%BIL/YEPB+4S&amp;B[]K0)7H]"3?QE/X#E`B+4S&amp;J`"QSFC6'JJZ*]&gt;$'37?R*.Y%E`CI&lt;134_**0)EH]4#&gt;%E`C32$*B%FR#%J/3A9E"YEH]@"0C3@R**\%EXDI'H=IR]L-GHEHRR.Y!E`A#4S"BR)+0)%H]!3?Q%.:":\!%XA#4_"B+A7?Q".Y!EAQ+&gt;-L+";='!Q+AM$$XXB;9NSF'J)9?`]UFQ&gt;6`1#K(STV![._%.1X7(XDV$&gt;%P&gt;$K"61PD0K#V2?C"KIH6B&gt;5$^3$TTPN2LP3,L1T\51\UP;UX8TK@R\Y?$RUP^^VO^VUP6ZVO6RU0J^V/JVU0"[VX__VW_W?&lt;[P@\-PW]K`PJ6@'@E:&lt;XEN@Y&gt;WI(ZJ7LXH7[!^3&amp;J8^!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)L!!!*Q(C=\&gt;3R=&gt;N!%)8B*Y]$J_T!QR9W:M97W-+WQ&amp;1B7^A7W!*&lt;?#WQ"&lt;9!`TCM+3A2(&amp;AT#A4I+/,&gt;9?`$!91UNF`34UV&lt;W_($D@ZZ0]Q$F]&amp;4(YXU&lt;`_IUNGTK`P@"KY/FC,L]Z]H4/NS\_9`L%;_^7`YNT:^O(XX@`&gt;`\@\NR`NV_U@QO:PU-K1UUYK7N"B8.ZH=Z#9XO=F.8O2&amp;8O2&amp;8O2&amp;HO2*HO2*HO2*(O2"(O2"(O2"0H:SE9N=Z+S+G&gt;R-:)K;!G9Q&amp;*E0YT%?YT%?$G5]RG-]RG-]$*(R')`R')`R=*K-RXC-RXC-BV*$YL'4YT%?SKPQ&amp;*\#5XA+$V/K]"3!9L+C=&amp;%%BIL/YEPB+4S&amp;B[]K0)7H]"3?QE/X#E`B+4S&amp;J`"QSFC6'JJZ*]&gt;$'37?R*.Y%E`CI&lt;134_**0)EH]4#&gt;%E`C32$*B%FR#%J/3A9E"YEH]@"0C3@R**\%EXDI'H=IR]L-GHEHRR.Y!E`A#4S"BR)+0)%H]!3?Q%.:":\!%XA#4_"B+A7?Q".Y!EAQ+&gt;-L+";='!Q+AM$$XXB;9NSF'J)9?`]UFQ&gt;6`1#K(STV![._%.1X7(XDV$&gt;%P&gt;$K"61PD0K#V2?C"KIH6B&gt;5$^3$TTPN2LP3,L1T\51\UP;UX8TK@R\Y?$RUP^^VO^VUP6ZVO6RU0J^V/JVU0"[VX__VW_W?&lt;[P@\-PW]K`PJ6@'@E:&lt;XEN@Y&gt;WI(ZJ7LXH7[!^3&amp;J8^!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
@@ -37,7 +37,7 @@
 		<Item Name="Set timeline Y-axis.vi" Type="VI" URL="../Supporting VIs/Set timeline Y-axis.vi"/>
 		<Item Name="Select plot.vi" Type="VI" URL="../Supporting VIs/Select plot.vi"/>
 		<Item Name="Set Mouse Icon.vi" Type="VI" URL="../Supporting VIs/Set Mouse Icon.vi"/>
-		<Item Name="Set plot cursor snap-to-plot and colour.vi" Type="VI" URL="../Supporting VIs/Set plot cursor snap-to-plot and colour.vi"/>
+		<Item Name="Set cursor snap to plot.vi" Type="VI" URL="../Supporting VIs/Set cursor snap to plot.vi"/>
 		<Item Name="Set plot visibility.vi" Type="VI" URL="../Supporting VIs/Set plot visibility.vi"/>
 		<Item Name="Set Splitter Color.vi" Type="VI" URL="../Supporting VIs/Set Splitter Color.vi"/>
 		<Item Name="Set timeline cursor color.vi" Type="VI" URL="../Supporting VIs/Set timeline cursor color.vi"/>
@@ -81,8 +81,13 @@
 		<Item Name="Cursor Redraw Read.vi" Type="Property VI" URL="../Supporting VIs/Cursor Redraw Read.vi"/>
 		<Item Name="Cursor Redraw Write.vi" Type="Property VI" URL="../Supporting VIs/Cursor Redraw Write.vi"/>
 	</Item>
+	<Item Name="Autoscale once" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Autoscale once</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Autoscale once</Property>
+		<Item Name="Autoscale once Write.vi" Type="Property VI" URL="../Properties/Autoscale once Write.vi"/>
+	</Item>
 	<Item Name="Set plot legend.vi" Type="VI" URL="../Supporting VIs/Set plot legend.vi"/>
 	<Item Name="Detect window length change.vi" Type="VI" URL="../Supporting VIs/Detect window length change.vi"/>
 	<Item Name="Set graph range.vi" Type="VI" URL="../Supporting VIs/Set graph range.vi"/>
-	<Item Name="Timelapse cursor boundary conditions.vi" Type="VI" URL="../Supporting VIs/Timelapse cursor boundary conditions.vi"/>
+	<Item Name="Time series cursor boundary conditions.vi" Type="VI" URL="../Supporting VIs/Time series cursor boundary conditions.vi"/>
 </XControl>
