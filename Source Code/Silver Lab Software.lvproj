@@ -6426,7 +6426,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalL
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Header params-Movement correction.ctl" Type="VI" URL="../User Interface/Visualisation/Functional Imaging Viewer/SubVIs/Experiment header interface/Typedefs/Header subclusters/Header params-Movement correction.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Microsoft.VisualBasic" Type="Document" URL="Microsoft.VisualBasic">
@@ -6447,7 +6446,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalL
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reference source.ctl" Type="VI" URL="../Typedefs/Reference source.ctl"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
