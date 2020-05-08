@@ -1,6 +1,0 @@
-ROI index	ROI ID	ROI Time (ns)	Pixels in ROI	Start X	Start Y	Start Z	Stop X	 Stop Y	Stop Z	Angle (deg)
-1	0	4000	1	92	50	0	92	50	0	0
-2	1	10000	5	0	0	0	4	4	0	0
-3	0	4000	1	94	50	1	94	50	1	0
-4	0	4000	1	80	28	0	80	28	0	0
-5	1	10000	10	41	95	0	50	86	0	0

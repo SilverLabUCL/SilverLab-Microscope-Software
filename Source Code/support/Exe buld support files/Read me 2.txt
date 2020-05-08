@@ -1,1 +1,0 @@
-Delete this file and replace it with the "Default profile.ini" file for the standalone application to work.
