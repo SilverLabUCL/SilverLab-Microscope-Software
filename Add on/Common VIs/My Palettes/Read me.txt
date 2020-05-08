@@ -1,3 +1,9 @@
-Place these VIs in 
+Place these VIs in (for LabVIEW 2017)
 
-C:\Program Files (x86)\National Instruments\LabVIEW 2013\user.lib\My Palettes.lib
+For any other version, please compile files for that version (Tools>>Advanced>>Mass Compile)
+
+32 bit
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\user.lib\My Palettes.lib
+
+64 bit
+C:\Program Files\National Instruments\LabVIEW 2017\user.lib\My Palettes.lib

@@ -1,6 +1,5 @@
-Install the OpenG and MGI packages using VI Package Manager (VIPM).
+Install the OpenG, MGI, GPower and NI Biomedical toolkits from JKI VI Package manager.
 
-VIPM installs by default with the most recent LabVIEW versions.
+VIPM installs by default with LabVIEW version.
 
-If unavailable, download from http://vipm.jki.net/
 
