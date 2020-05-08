@@ -1,8 +1,8 @@
-The SilverLab LabVIEW Imaging Software is an open-source application for
+The SilverLab Microscope Software is an open-source application for
 
 controlling an Acousto-Optic Lens laser scanning microscope. The software
 
-was developed in the laboratory of Prof Robin Angus Silver at University
+was developed in the laboratory of Prof Robin Angus Silver at the University
 
 College London with funds from the NIH, ERC and Wellcome Trust.
 
