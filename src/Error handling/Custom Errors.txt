@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+All custom errors related to wrong, conflicting incomplete errors in this range.
+<nifamily familyname="Hardware Configuration Errors" displayname="Hardware config error">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+
+</nierror>
+<nierror code="5001">
+Functionality not available in the current controller type.
+</nierror>
+<nierror code="5002">
+
+</nierror>
+</nidocument>

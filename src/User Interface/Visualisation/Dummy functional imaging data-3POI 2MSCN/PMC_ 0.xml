@@ -1,0 +1,32 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>9.0.1</Version>
+<Cluster>
+<Name>Controls Cluster</Name>
+<NumElts>6</NumElts>
+<I32>
+<Name>No of Averages</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PMT2</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PMT1</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>Pockels Control</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Back Aperture</Name>
+<Val>655.55017045813452</Val>
+</DBL>
+<DBL>
+<Name>Pockels</Name>
+<Val>23.86202620467610</Val>
+</DBL>
+</Cluster>
+</LVData>

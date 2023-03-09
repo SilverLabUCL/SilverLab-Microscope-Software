@@ -1,0 +1,28 @@
+### Version 3.2.0 features
+
+#### Main features
+
+- Variable length and variable resolution for functional imaging added.
+- ROI editor table added for setting up functional imaging.
+- LabVIEW version upgraded to version 2020 SP1.
+- Software supports Brucker MAMC stage (RS232).
+- DAQ FPGA bitfile upgraded to 'FPGA DAQ_ref_v3_it_tim_var_length_2dzcorr.lvbitx'
+- 3D MC controls upgraded, PID values and reference intensity thresholding values can be changed on the fly.
+
+#### Miscellaneous
+
+
+- New functional imaging viewer added for variable size patches.
+- Bug fixes related to Movement correction.
+- Bug fixes related to pixel count for non orthogonal mini-scans.
+- Software compatible with C++ based API for chirp generation.
+ 
+
+### Version 2.3.2 features
+
+-  Functionality for 3D movement correction added.
+-  Functionality for 3D fixed length line scans added.
+-  Hardware cycle timings added to acquistion data.
+-  Source code made fully compatible with 64 bit labview. 
+-  AOL controller bitfile upgraded to 'aom_magnification_distortion.bit'
+-  DAQ FPGA bitfile upgraded to 'FPGA DAQ_refactored_v3_it_timer_3dmc.lvbitx'

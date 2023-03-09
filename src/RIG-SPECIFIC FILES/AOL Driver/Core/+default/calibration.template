@@ -1,0 +1,46 @@
+[Objective]
+Current Objective = Olympus 20X
+
+[Objective.Olympus 40X]
+Calibration Wavelength (nm) = 920
+Z Refraction Correction = 0
+Sum X = -0.14
+Sum Y = 0.2
+Diff X = -1.272
+Diff Y = -1.605
+Distortion Correction = 4.4
+Z_norm to um_scaling = 29800
+X_norm to um_scaling = 19065
+
+[Objective.Nikon 25X]
+Calibration Wavelength (nm) = 920
+Z Refraction Correction = 0
+Sum X = 5.11
+Sum Y = 5.77
+Diff X = 1.68
+Diff Y = -3.554
+Distortion Correction = 8.624
+Z_norm to um_scaling = 35779
+X_norm to um_scaling = 20784
+
+[Objective.Olympus 20X]
+Calibration Wavelength (nm) = 920
+Z Refraction Correction = 0
+Sum X = 0.17
+Sum Y = 0.85
+Diff X = 1.522
+Diff Y = -3.4
+Distortion Correction = 8.799
+Z_norm to um_scaling = 35800
+X_norm to um_scaling = 20784
+
+[Objective.Olympus 10X]
+Calibration Wavelength (nm) = 920
+Z Refraction Correction = 0
+Sum X = 0.1
+Sum Y = 1
+Diff X = 1.8
+Diff Y = -4
+Distortion Correction = 1
+Z_norm to um_scaling = 151146
+X_norm to um_scaling = 41468

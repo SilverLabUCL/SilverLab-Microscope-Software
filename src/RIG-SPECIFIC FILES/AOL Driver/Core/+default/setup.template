@@ -1,0 +1,139 @@
+
+[General Setup]
+Microscope Type = "AOLM"
+Microscope ID = "0003"
+Num AOD = 4
+Are X Y Swapped = 0
+Axial MC = TRUE
+MC Supported = TRUE
+Advanced Imaging = FALSE
+Laser Power Control = "Pockels"
+Laser Power Modulation Control = "NI"
+DevPC - No hardware = FALSE
+Max allowed trial length (sec) = 60.000000
+Max Line Number = 2047
+Base path = "C:\\Microscope data"
+Pockels cal.Zoom = 12.000000
+Pockels cal.Dwell time (µs) = 0.100000
+Initial Scan Resolution = 512
+Initial Acceptance Angle (mrad) = 5
+Revision number = "1.0.0"
+
+[Names & Paths]
+Pockels calibration file = "Pockels Cal-17_09_2015 16-16-47.txt"
+Laser power calibration file = "Laser power cal.txt"
+
+[Hardware Config]
+Cam VidRec.Available = TRUE
+Cam VidRec.DO flag-Video record = "PXI1Slot4/port0/line6"
+Cam VidRec.DO flag-Trial start = "PXI1Slot4/port0/line7"
+Control system.Network adapter name = "82574L"
+Control system.MAC address = "AA-BB-CC-DD-EE-FF"
+Control system.Ctrl FPGA available = TRUE
+Computer.MAC address = "70-54-D2-90-2E-98"
+DAQ FPGA.Target = "RIO0"
+DAQ FPGA.Input type AC/DC = 1
+DAQmx Chan.Pockels AO = "PXI1Slot4/ao0"
+DAQmx Chan.Hard Shutter AO = "PXI1Slot4/ao1"
+DAQmx Chan.PMT AOs = "PXI1Slot4/ao2:3"
+DAQmx Chan.Power meter AI = "Dev1/ai1"
+Encoder.Available? = TRUE
+Encoder.IP address = "224.0.1.103"
+Encoder.Port = 7000.000000
+Encoder.Trigger = "hardware" # "PXI1Slot6/port4/line1"
+Encoder.Wheel radius (cm) = 16.000000
+Encoder.Filename = "encoder_log2.txt"
+Trigger.AvailableDeviceList = "1"
+Trigger.Device1 = "hardware" #"PXI1Slot6/port4/line5"
+Externalise Triggers = TRUE
+XY Stage.Available? = TRUE
+XY Stage.Type = "Scientifica"
+XY Stage.Baudrate = "9600"
+XY Stage.COM port = "COM6"
+XY Stage.Swapped = 1
+Z Stage.Type = "Scientifica"
+Z Stage.COM port = "COM6"
+Z Stage.Baudrate = "9600"
+Laser.Available? = TRUE
+Laser.Type = "Coherent"
+Laser.COM port = "COM4"
+Laser.Baudrate = "19200"
+Prechirper.Available? = TRUE
+Prechirper.Type = "femtocontrol"
+Prechirper.COM Port = "COM5"
+Prechirper.Baudrate = "115200"
+Objective.Strings = "Olympus 20X,Nikon 25X,Olympus 40X,Olympus 60X"
+
+[System Config]
+Control system.Clock freq (MHz) = 240.000000
+Control system.AOD 1 Amplitude = 255.000000
+Control system.AOD 2 Amplitude = 255.000000
+Control system.AOD 3 Amplitude = 255.000000
+Control system.AOD 4 Amplitude = 255.000000
+Control system.Data Time Interval (ns) = 50.000000
+Control system.T0 (ns) = 0.000000
+Control system.Ta (ns) = 0.000000
+DAQ FPGA.Clock freq (MHz) = 200.000000
+DAQ FPGA.Samples Wait after Trigger = 6100
+DAQ FPGA.AOD fill = 4895.000000
+DAQ FPGA.StartupDelay = 0.000000
+DAQ FPGA.Slip Cycle = 110000.000000
+DAQ FPGA.Add Cycle = FALSE
+Laser wavelength (nm) = 920.000000
+
+[AOL Properties]
+AOD 1 Thickness (mm) = 8.000000
+AOD 2 Thickness (mm) = 8.000000
+AOD 3 Thickness (mm) = 8.000000
+AOD 4 Thickness (mm) = 8.000000
+AOD 1-2 Separation (mm) = 50.000000
+AOD 2-3 Separation (mm) = 50.000000
+AOD 3-4 Separation (mm) = 50.000000
+AOD 1 X Offset = 0.000000
+AOD 2 X Offset = 0.002300
+AOD 3 X Offset = 0.004600
+AOD 4 X Offset = 0.004600
+AOD 1 Y Offset = 0.000000
+AOD 2 Y Offset = 0.000000
+AOD 3 Y Offset = 0.002300
+AOD 4 Y Offset = 0.004600
+AOD 1 X Direction = 1
+AOD 2 X Direction = 0
+AOD 3 X Direction = -1
+AOD 4 X Direction = 0
+AOD 1 Y Direction = 0
+AOD 2 Y Direction = 1
+AOD 3 Y Direction = 0
+AOD 4 Y Direction = -1
+AOD 1 Centre (mm) = 7.500000
+AOD 2 Centre (mm) = 7.500000
+AOD 3 Centre (mm) = 7.500000
+AOD 4 Centre (mm) = 7.500000
+Timing Offset AOD 1 = -7.500000
+Timing Offset AOD 2 = -3.500000
+Timing Offset AOD 3 = -5.000000
+Timing Offset AOD 4 = -4.000000
+AOD Optical Offset 1 (mm) = 0
+AOD Optical Offset 2 (mm) = 0
+Diffraction mode = -1.000000
+crystalLength (mm) = 15.000000
+Acoustic velocity (m/s) = 613.000000
+AOD fill time (us) = 24.475
+AOD Ord. Refractive index = 2.220000
+AOD ExtraOrd. Refractive index = 2.44
+AOL Aperture (mm) = 15.000000
+AOL centre wavelength (nm) = 920.000000
+AOL centre frequency (MHz) = 39.000000
+Pair Deflection Ratio = 1.000000
+
+[AOL Calibration]
+new_Parameter 1 = 0.000000
+new_Parameter 2 = 0.000000
+new_Parameter 3 = 0.000000
+
+[Vaa3d Properties]
+Data Storage HD = E:
+Vaa3d executable path = E:\\Vaa3D-3.20\\bin\\vaa3d.exe
+
+[Last Used Profile]
+Default User = ""
