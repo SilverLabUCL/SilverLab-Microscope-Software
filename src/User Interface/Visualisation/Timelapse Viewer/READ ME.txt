@@ -1,1 +1,0 @@
-The viewer window is in the dynamically called windows folder inside the top level directory

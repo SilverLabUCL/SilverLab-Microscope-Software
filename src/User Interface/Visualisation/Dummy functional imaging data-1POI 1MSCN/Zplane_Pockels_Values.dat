@@ -1,8 +1,0 @@
-For Pockels modulation Ls parameter is taken as 52microns		
-Znorm to motor transfromation is done using the calibration taken on 2009_02_16 		
-		
-		
-Z Motor	Z Norm	Pockels
-		
-0	0	0.41
-0.2	1	0.41
