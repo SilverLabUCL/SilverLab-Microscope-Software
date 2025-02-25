@@ -3,26 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{08E7C2B9-2EDC-40C6-B0B6-4D6C64AC334B}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/integral time (Ti, min)</Property>
-	<Property Name="varPersistentID:{1F3BCD1B-691A-413D-9D27-5447A6AA5B31}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/derivative time (Td, min)</Property>
-	<Property Name="varPersistentID:{5E8E5D7D-C81F-4A09-8A3E-2C880D0D3D11}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{67B55064-5F2E-4541-9A2E-3AB5C5F14444}" Type="Ref">/My Computer/Libraries/Network Published Variables.lvlib/Experiment folder name</Property>
-	<Property Name="varPersistentID:{73E307E9-A327-48CC-9406-6B58E941D94B}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/linearity</Property>
-	<Property Name="varPersistentID:{7D0D65C2-83EC-42C3-B856-A78AE7411A69}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/reinitialize? (F)</Property>
-	<Property Name="varPersistentID:{80F75905-B317-428C-B4CE-FB4EB6853001}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/dt out (s)</Property>
-	<Property Name="varPersistentID:{8BDA2BEC-5E48-4C72-B610-E7351449AF5C}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/output</Property>
-	<Property Name="varPersistentID:{A31C91AD-F63E-41F0-BD48-AEF33F7339FC}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/error in</Property>
-	<Property Name="varPersistentID:{A5610F1D-53F6-487B-9ED3-11DF65686CCA}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/output high</Property>
-	<Property Name="varPersistentID:{A7056B7C-2D3A-42AB-91B5-A5EE8E39DA9A}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/setpoint</Property>
-	<Property Name="varPersistentID:{AB47B49D-E6D9-4B23-8722-53DD35D8759F}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/setpoint low</Property>
-	<Property Name="varPersistentID:{AEDFC4CD-D262-4B72-A8BE-E53E1B222F5B}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/proportional gain (Kc)</Property>
-	<Property Name="varPersistentID:{B66FDB3C-B32A-4020-932A-2B83FB351022}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/dt (s)</Property>
-	<Property Name="varPersistentID:{C2FB98A6-49DA-4ADF-8D92-BD267E33773C}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/error out</Property>
-	<Property Name="varPersistentID:{D5D70AA3-73A2-4AF3-A8BE-781232E574EB}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/process variable</Property>
-	<Property Name="varPersistentID:{D62F7E18-3E42-4043-95BC-1D51EAFF8FB6}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/manual control</Property>
-	<Property Name="varPersistentID:{DE3A25B3-941E-475A-B69D-AEED9015E29E}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/setpoint high</Property>
-	<Property Name="varPersistentID:{E21D458A-DDA8-479B-9D3E-DC54B2AE61A4}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/output low</Property>
-	<Property Name="varPersistentID:{F99376D3-7B04-4632-BECC-2398719ADF95}" Type="Ref">/My Computer/User Interface/Visualisation/Timelapse Viewer/SubVIs/AVI playback timing control.vi/PID/auto? (T)</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -47,9 +28,7 @@
 		<Item Name="AOLdrivers" Type="Folder" URL="../AOLdrivers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Code Testers" Type="Folder" URL="../Code Testers">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Code Testers" Type="Folder"/>
 		<Item Name="Configuration code" Type="Folder" URL="../Configuration code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -124,24 +103,16 @@
 		<Item Name="TOP LEVEL VI.vi" Type="VI" URL="../TOP LEVEL VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Bruker-MAMC.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Bruker-MAMC/Bruker-MAMC.lvlib"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Close.vi"/>
-				<Item Name="Configure Filter Wheel.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Configure Filter Wheel.vi"/>
-				<Item Name="Configure Lamp.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Configure Lamp.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Initialize.vi"/>
-				<Item Name="Login Device.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Action - Status/Login Device.vi"/>
-				<Item Name="Logout Device.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Action - Status/Logout Device.vi"/>
-				<Item Name="Move Focusing Unit.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Action - Status/Move Focusing Unit.vi"/>
-				<Item Name="Origin Initialization.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Action - Status/Origin Initialization.vi"/>
-				<Item Name="Select Condenser Switching.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Select Condenser Switching.vi"/>
-				<Item Name="Select Filter Wheel.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Select Filter Wheel.vi"/>
-				<Item Name="Select Mirror Unit.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Select Mirror Unit.vi"/>
-				<Item Name="Select Prism.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Select Prism.vi"/>
-				<Item Name="Set Active Cube.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Set Active Cube.vi"/>
-				<Item Name="Set Active Objective.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Set Active Objective.vi"/>
-				<Item Name="Set Active Turret.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Set Active Turret.vi"/>
-				<Item Name="Set Shutter Status Extended.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Set Shutter Status Extended.vi"/>
-				<Item Name="Set Shutter Status.vi" Type="VI" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Public/Configure/BX2A - IX2 Frame Control Unit/Set Shutter Status.vi"/>
+				<Item Name="Get motor movement status.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Get motor movement status.vi"/>
+				<Item Name="Get Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Get Position.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Initialize.vi"/>
+				<Item Name="MAMC Command Assembler.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/MAMC Command Assembler.vi"/>
+				<Item Name="MAMC_Commands.ctl" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/MAMC_Commands.ctl"/>
+				<Item Name="MAMC_serial_command.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Private/MAMC_serial_command.vi"/>
+				<Item Name="Olympus IX BX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Olympus IX BX Series.lvlib"/>
+				<Item Name="Set Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Set Position.vi"/>
+				<Item Name="Stop Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Stop Position.vi"/>
+				<Item Name="Zero Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Zero Position.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -242,6 +213,7 @@
 				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
 				<Item Name="Detect_Application_Kind.vi" Type="VI" URL="/&lt;userlib&gt;/My Palettes.lib/Application/Detect_Application_Kind.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
+				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 				<Item Name="Error_To_Warning.vi" Type="VI" URL="/&lt;userlib&gt;/My Palettes.lib/Error/Error_To_Warning.vi"/>
 				<Item Name="Filter 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CDB)__ogtk.vi"/>
@@ -352,6 +324,7 @@
 				<Item Name="MGI Change Detector (F).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Change Detector/MGI Change Detector (F).vi"/>
 				<Item Name="MGI Change Detector (T).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Change Detector/MGI Change Detector (T).vi"/>
 				<Item Name="MGI Change Detector.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Change Detector.vi"/>
+				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
 				<Item Name="MGI Open Explorer Window.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Open Explorer Window.vi"/>
 				<Item Name="MGI Round to Decimal Place Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Rounding/MGI Round to Decimal Place Enum.ctl"/>
 				<Item Name="MGI Round to Decimal Place.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Rounding/MGI Round to Decimal Place.vi"/>
@@ -575,6 +548,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Input Device.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Close Input Device.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="closeJoystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeJoystick.vi"/>
 				<Item Name="closeKeyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeKeyboard.vi"/>
 				<Item Name="closeMouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeMouse.vi"/>
@@ -812,9 +786,12 @@
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
+				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="DTbl Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Samples.vi"/>
 				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
 				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
@@ -872,6 +849,7 @@
 				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
@@ -988,16 +966,18 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_SGL.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_SGL.ctl"/>
-				<Item Name="Medical Image 2D Viewer Helper (2D U16).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Biomedical/Controls/Medical Image/Medical Image 2D Viewer Helper (2D U16).vi"/>
-				<Item Name="Medical Image 2D Viewer Helper.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Biomedical/Controls/Medical Image/Medical Image 2D Viewer Helper.vi"/>
 				<Item Name="Medical Image 2D Viewer.xctl" Type="XControl" URL="/&lt;vilib&gt;/addons/Biomedical/Controls/Medical Image/2D Image Viewer/Medical Image 2D Viewer.xctl"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
+				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_3dgraph.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/NI_3dgraph.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_BMTK_common.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Biomedical/NI_BMTK_common.lvlib"/>
+				<Item Name="NI_BMTK_Controls.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Biomedical/NI_BMTK_Controls.lvlib"/>
+				<Item Name="NI_BMTK_FileIO.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Biomedical/NI_BMTK_FileIO.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
@@ -1011,13 +991,14 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
-				<Item Name="PID.vi" Type="VI" URL="/&lt;vilib&gt;/functionblocks/control/pid/PID.vi"/>
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
 				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
@@ -1032,7 +1013,21 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -1046,6 +1041,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Simple Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Simple Grid Descriptor"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="subCurveFitting.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/CurveFittingBlock.llb/subCurveFitting.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
@@ -1101,6 +1097,9 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Arboreal Scanning Parameters.ctl" Type="VI" URL="../User Interface/ROI Entry screen/Typedefs/Arboreal Scanning Parameters.ctl"/>
 			<Item Name="Compute Chirp Parameters-Sweep.vi" Type="VI" URL="../AOLdrivers/Compute Chirp Parameters-Sweep.vi"/>
 			<Item Name="Controller response data.ctl" Type="VI" URL="../AOLdrivers/EthernetDriver/Controller response data.ctl"/>
@@ -1117,8 +1116,11 @@
 			<Item Name="Generate control system simulated cycle.vi" Type="VI" URL="../Prototyping/Generate control system simulated cycle.vi"/>
 			<Item Name="gl_Funct viewer (patches) globals.vi" Type="VI" URL="../Prototyping/Patch data preview/Globals/gl_Funct viewer (patches) globals.vi"/>
 			<Item Name="Header parameters cluster-ALL-retd.ctl" Type="VI" URL="../User Interface/Visualisation/Functional Imaging Viewer/SubVIs/Experiment header interface/Typedefs/Header parameters cluster-ALL-retd.ctl"/>
+			<Item Name="IMAQ Vision Example folder.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/IMAQ Vision Example folder.vi"/>
 			<Item Name="IMAQ Vision Example folder.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/IMAQ Vision Example folder.vi"/>
-			<Item Name="IMAQ Vision Example folder.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/IMAQ Vision Example folder.vi"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Microsoft.VisualBasic" Type="Document" URL="Microsoft.VisualBasic">
@@ -1138,9 +1140,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NorrmZCalibration V2.vi" Type="VI" URL="../Prototyping/Display Zstack for Vicki/NorrmZCalibration V2.vi"/>
-			<Item Name="Overlay Feature Points.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Overlay Utilities/Overlay Feature Points.vi"/>
-			<Item Name="Overlay Points with User Specified Size.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Overlay Utilities/Overlay Points with User Specified Size.vi"/>
-			<Item Name="Overlay Real World Circle.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Feature Correspondence/SubVIs/Overlay Real World Circle.vi"/>
+			<Item Name="Overlay Feature Points.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Overlay Utilities/Overlay Feature Points.vi"/>
+			<Item Name="Overlay Points with User Specified Size.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Overlay Utilities/Overlay Points with User Specified Size.vi"/>
+			<Item Name="Overlay Real World Circle.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Feature Correspondence/SubVIs/Overlay Real World Circle.vi"/>
 			<Item Name="Parameter_Sweep_prep.vi" Type="VI" URL="../AOLdrivers/Parameter_Sweep_prep.vi"/>
 			<Item Name="Patch data preview-Write to Start End cycle global.vi" Type="VI" URL="../Prototyping/Patch data preview/Patch data preview-Write to Start End cycle global.vi"/>
 			<Item Name="pcap device details.ctl" Type="VI" URL="../AOLdrivers/TypeDef/pcap device details.ctl"/>

@@ -1,3 +1,14 @@
+### Version 3.2.6
+- Major optimisation is movement control to make its operation reliable.
+     - Optimisations in FPGA DAQ MC firmware (7976R)
+     - MC reference placement calulation on host side bugs fixed
+     - DAQ Bitfile upgraded to 'FPGA DAQ_2dzcorr_centre_optionalZ.lvbitx'
+     - MC plots viewer has monitoring and MC auto-reset and user reset functionality added.
+     - Saving reference plots during live imaging.
+- Z stack freezing bug resolved.
+- Option provided to disable objective position (Z position) range centering for free Z-stacks
+- Mathscript code in Z stack calculations changed to 'G' code as mathscript will be phased out by NI
+ 
 ### Version 3.2.0 features
 
 #### Main features
