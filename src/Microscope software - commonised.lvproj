@@ -99,20 +99,11 @@
 		<Item Name="Video Rec Signaling" Type="Folder" URL="../Video Rec Signaling">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="PALETTE.vi" Type="VI" URL="../PALETTE.vi"/>
 		<Item Name="TOP LEVEL VI.vi" Type="VI" URL="../TOP LEVEL VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Get motor movement status.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Get motor movement status.vi"/>
-				<Item Name="Get Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Get Position.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Initialize.vi"/>
-				<Item Name="MAMC Command Assembler.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/MAMC Command Assembler.vi"/>
-				<Item Name="MAMC_Commands.ctl" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/MAMC_Commands.ctl"/>
-				<Item Name="MAMC_serial_command.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Private/MAMC_serial_command.vi"/>
+				<Item Name="Bruker-MAMC.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Bruker-MAMC/Bruker-MAMC.lvlib"/>
 				<Item Name="Olympus IX BX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Olympus IX BX Series/Olympus IX BX Series.lvlib"/>
-				<Item Name="Set Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Set Position.vi"/>
-				<Item Name="Stop Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Stop Position.vi"/>
-				<Item Name="Zero Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Bruker-MAMC/Public/Action-Status/Zero Position.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -213,7 +204,6 @@
 				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
 				<Item Name="Detect_Application_Kind.vi" Type="VI" URL="/&lt;userlib&gt;/My Palettes.lib/Application/Detect_Application_Kind.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
-				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 				<Item Name="Error_To_Warning.vi" Type="VI" URL="/&lt;userlib&gt;/My Palettes.lib/Error/Error_To_Warning.vi"/>
 				<Item Name="Filter 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CDB)__ogtk.vi"/>
@@ -548,7 +538,6 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Input Device.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Close Input Device.vi"/>
-				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="closeJoystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeJoystick.vi"/>
 				<Item Name="closeKeyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeKeyboard.vi"/>
 				<Item Name="closeMouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeMouse.vi"/>
@@ -907,14 +896,12 @@
 				<Item Name="IMAQ Curve Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Curve Parameters.ctl"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Dispose Object Tracking Session" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Dispose Object Tracking Session"/>
-				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
 				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ GetPalette" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ GetPalette"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
-				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
 				<Item Name="IMAQ Match Range Setting.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Match Range Setting.ctl"/>
 				<Item Name="IMAQ Mean Shift Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Mean Shift Options"/>
 				<Item Name="IMAQ Object Tracking Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Object Tracking Options"/>
@@ -927,7 +914,6 @@
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ Point" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Point"/>
-				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
@@ -991,7 +977,6 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -1013,20 +998,7 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
-				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
-				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
-				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
-				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
-				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
-				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
-				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
-				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
-				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
-				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
-				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
-				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1039,9 +1011,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="ShapeDetectionMatchOptions.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Shape Detection.llb/ShapeDetectionMatchOptions.ctl"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Simple Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Simple Grid Descriptor"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="subCurveFitting.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/CurveFittingBlock.llb/subCurveFitting.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
@@ -1097,36 +1067,11 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Arboreal Scanning Parameters.ctl" Type="VI" URL="../User Interface/ROI Entry screen/Typedefs/Arboreal Scanning Parameters.ctl"/>
-			<Item Name="Compute Chirp Parameters-Sweep.vi" Type="VI" URL="../AOLdrivers/Compute Chirp Parameters-Sweep.vi"/>
-			<Item Name="Controller response data.ctl" Type="VI" URL="../AOLdrivers/EthernetDriver/Controller response data.ctl"/>
-			<Item Name="Ctr sys net adapter port auto detect v2.vi" Type="VI" URL="../AOLdrivers/EthernetDriver/Ctr sys net adapter port auto detect v2.vi"/>
-			<Item Name="Dynamic call-Calibration toolbox.vi" Type="VI" URL="../User Interface/Dynamic calls/Dynamic call-Calibration toolbox.vi"/>
-			<Item Name="Exctracted AVI1-2 code.vi" Type="VI" URL="../Prototyping/Exctracted AVI1-2 code.vi"/>
-			<Item Name="FPGA DAQ-AC.lvbitx" Type="Document" URL="../RIG-SPECIFIC FILES/FPGA Bitfiles/_Older/FPGA DAQ-AC.lvbitx"/>
-			<Item Name="FPGA Settings.ctl" Type="VI" URL="../AOLdrivers/TypeDef/FPGA Settings.ctl"/>
-			<Item Name="FPGA_adapter_type.ctl" Type="VI" URL="../AOLdrivers/TypeDef/FPGA_adapter_type.ctl"/>
-			<Item Name="FPGA_card_type.ctl" Type="VI" URL="../AOLdrivers/TypeDef/FPGA_card_type.ctl"/>
-			<Item Name="FPGA_DAQ_settings.ctl" Type="VI" URL="../AOLdrivers/TypeDef/FPGA_DAQ_settings.ctl"/>
-			<Item Name="Funct acq copy data for manual repeat.vi" Type="VI" URL="../User Interface/UI Management/Funct acq copy data for manual repeat.vi"/>
-			<Item Name="General trig pulse width.ctl" Type="VI" URL="../FPGA DAQ/FPGA Typedefs/General trig pulse width.ctl"/>
-			<Item Name="Generate control system simulated cycle.vi" Type="VI" URL="../Prototyping/Generate control system simulated cycle.vi"/>
-			<Item Name="gl_Funct viewer (patches) globals.vi" Type="VI" URL="../Prototyping/Patch data preview/Globals/gl_Funct viewer (patches) globals.vi"/>
-			<Item Name="Header parameters cluster-ALL-retd.ctl" Type="VI" URL="../User Interface/Visualisation/Functional Imaging Viewer/SubVIs/Experiment header interface/Typedefs/Header parameters cluster-ALL-retd.ctl"/>
-			<Item Name="IMAQ Vision Example folder.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/IMAQ Vision Example folder.vi"/>
-			<Item Name="IMAQ Vision Example folder.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/IMAQ Vision Example folder.vi"/>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Microsoft.VisualBasic" Type="Document" URL="Microsoft.VisualBasic">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Network adaptor details.ctl" Type="VI" URL="../AOLdrivers/TypeDef/Network adaptor details.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1139,228 +1084,17 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NorrmZCalibration V2.vi" Type="VI" URL="../Prototyping/Display Zstack for Vicki/NorrmZCalibration V2.vi"/>
-			<Item Name="Overlay Feature Points.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Overlay Utilities/Overlay Feature Points.vi"/>
-			<Item Name="Overlay Points with User Specified Size.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Overlay Utilities/Overlay Points with User Specified Size.vi"/>
-			<Item Name="Overlay Real World Circle.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Vision/Feature Correspondence/SubVIs/Overlay Real World Circle.vi"/>
-			<Item Name="Parameter_Sweep_prep.vi" Type="VI" URL="../AOLdrivers/Parameter_Sweep_prep.vi"/>
-			<Item Name="Patch data preview-Write to Start End cycle global.vi" Type="VI" URL="../Prototyping/Patch data preview/Patch data preview-Write to Start End cycle global.vi"/>
-			<Item Name="pcap device details.ctl" Type="VI" URL="../AOLdrivers/TypeDef/pcap device details.ctl"/>
-			<Item Name="PointOverlayV1.vi" Type="VI" URL="../Prototyping/Display Zstack for Vicki/PointOverlayV1.vi"/>
-			<Item Name="PXI Trigger Enable cluster.ctl" Type="VI" URL="../FPGA DAQ/FPGA Typedefs/PXI Trigger Enable cluster.ctl"/>
-			<Item Name="ROI Entry Screen.vi" Type="VI" URL="../User Interface/Subpanel Windows/ROI Entry Screen.vi"/>
-			<Item Name="ROI Stand Alone Ops.vi" Type="VI" URL="../User Interface/Subpanel Windows/ROI Stand Alone Ops.vi"/>
-			<Item Name="scan_typr.ctl" Type="VI" URL="../FPGA DAQ/FPGA Typedefs/scan_typr.ctl"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Show Binary_check.vi" Type="VI" URL="../miscelaneous/Show Binary_check.vi"/>
-			<Item Name="Stimulus trigger delays cluster.ctl" Type="VI" URL="../FPGA DAQ/FPGA Typedefs/Stimulus trigger delays cluster.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Unit test-Optimal Motor Z start.vi" Type="VI" URL="../Prototyping/Unit Test VIs/Unit test-Optimal Motor Z start.vi"/>
-			<Item Name="Window call-Calibration Toolbox Window.vi" Type="VI" URL="../User Interface/Subpanel Windows/Window call-Calibration Toolbox Window.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Exe for installer" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{EEEA873B-4CFE-4CA9-8263-28D674D2C44C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F1354FBF-4B48-47F1-8A6D-EBEE46DDC8F8}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D8B53065-A056-4A62-8B82-2C5F3B71ADF6}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Exe for installer</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Exe for installer</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{CBEDA386-8016-4AE5-98B6-F3048180C7B5}</Property>
-				<Property Name="Bld_supportedLanguage[0]" Type="Str">ChineseS</Property>
-				<Property Name="Bld_supportedLanguage[1]" Type="Str">English</Property>
-				<Property Name="Bld_supportedLanguage[2]" Type="Str">French</Property>
-				<Property Name="Bld_supportedLanguage[3]" Type="Str">German</Property>
-				<Property Name="Bld_supportedLanguage[4]" Type="Str">Japanese</Property>
-				<Property Name="Bld_supportedLanguage[5]" Type="Str">Korean</Property>
-				<Property Name="Bld_supportedLanguageCount" Type="Int">6</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Silver Lab Microscopy.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Exe for installer/Silver Lab Microscopy.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Exe for installer/data</Property>
-				<Property Name="Destination[2].destName" Type="Str">RIG-SPECIFIC FILES</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES</Property>
-				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[3].destName" Type="Str">FPGA Bitfiles</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES/FPGA Bitfiles</Property>
-				<Property Name="Destination[4].destName" Type="Str">Calibration Files</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES/Configuration Files/Calibration Files</Property>
-				<Property Name="Destination[5].destName" Type="Str">Images</Property>
-				<Property Name="Destination[5].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES/Configuration Files/Images</Property>
-				<Property Name="Destination[6].destName" Type="Str">User Profiles</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES/Configuration Files/User Profiles</Property>
-				<Property Name="Destination[7].destName" Type="Str">Configuration Files</Property>
-				<Property Name="Destination[7].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES/Configuration Files</Property>
-				<Property Name="Destination[8].destName" Type="Str">AOL Driver</Property>
-				<Property Name="Destination[8].path" Type="Path">../builds/Exe for installer/RIG-SPECIFIC FILES/AOL Driver</Property>
-				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[9].destName" Type="Str">WinPcap installer</Property>
-				<Property Name="Destination[9].path" Type="Path">../builds/Exe for installer/data/3rd party installers/WinPcap installer</Property>
-				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/support/Icons/Main icon.ico</Property>
-				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Libraries/Network Published Variables.lvlib</Property>
-				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Exe_VardepHideDeployDlg" Type="Bool">true</Property>
-				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
-				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2030BFAE-9063-4D5A-BBB0-8BBFF5C46009}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dynamically Called VIs/AOL Z Cal-Wizard.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/User Interface/Movement Correction/Ref Plots Viewer/Ref Plots Viewer.vi</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Acquisition/Speed Acquisition/Speed graph window.vi</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-AOL Z cal file load.vi</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Coordinates List.vi</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Error message.vi</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Funct TIFF export.vi</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Functional data editor.vi</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Larger image.vi</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Pockels cal file load.vi</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Position control window.vi</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[19].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/support/Libtiff3/DLLs</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-ROI group visualisation.vi</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Dynamically Called VIs/WINDOW-System Config.vi</Property>
-				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Time Series editor.vi</Property>
-				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[22].type" Type="Str">VI</Property>
-				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/TOP LEVEL VI.vi</Property>
-				<Property Name="Source[23].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[23].type" Type="Str">VI</Property>
-				<Property Name="Source[24].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[24].itemID" Type="Ref"></Property>
-				<Property Name="Source[25].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[25].itemID" Type="Ref"></Property>
-				<Property Name="Source[26].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[26].itemID" Type="Ref"></Property>
-				<Property Name="Source[27].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[27].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[27].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/RIG-SPECIFIC FILES/Matlab .p files/AOL Driver</Property>
-				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[27].type" Type="Str">Container</Property>
-				<Property Name="Source[28].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[28].itemID" Type="Ref"></Property>
-				<Property Name="Source[29].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[29].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/User Interface/Visualisation/Functional Imaging Viewer/Functional Imaging Viewer.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[30].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref"></Property>
-				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[30].type" Type="Str">Container</Property>
-				<Property Name="Source[31].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[31].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[31].itemID" Type="Ref"></Property>
-				<Property Name="Source[31].type" Type="Str">Container</Property>
-				<Property Name="Source[32].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[32].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[32].itemID" Type="Ref"></Property>
-				<Property Name="Source[32].type" Type="Str">Container</Property>
-				<Property Name="Source[33].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/support/3rd Party Installers</Property>
-				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[33].type" Type="Str">Container</Property>
-				<Property Name="Source[34].destinationIndex" Type="Int">9</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/support/3rd Party Installers/WinPcap Installer/WinPcap_4_1_3.exe</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Idle Reference Image Window.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Live Imaging Window.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Message Window 2.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Pockels Cal-Cal explorer window.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Pockels Cal-Wizard.vi</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">35</Property>
-				<Property Name="TgtF_companyName" Type="Str">SilverLab, UCL</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SilverLab Microscope Software</Property>
-				<Property Name="TgtF_internalName" Type="Str">Exe for installer</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
-				<Property Name="TgtF_productName" Type="Str">Exe for installer</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{7E44C08C-2EF7-44CE-8438-F612AE97E8DF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Silver Lab Microscopy.exe</Property>
-			</Item>
 			<Item Name="Exe-Funct speed viewer" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{F5F9D9D9-D6CE-450E-97BF-F138264BE988}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{76B43F0D-DDBF-40DC-8DAE-F904365F3375}</Property>
@@ -1373,21 +1107,22 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Exe-Funct speed viewer</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Executable_version 3.2.7</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B55A93DC-393F-4BE1-94A5-98D03F8D6ED1}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">Functional speed viewer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Exe-Funct speed viewer/Functional speed viewer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/Functional speed viewer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Exe-Funct speed viewer/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6E5A0B5-91AE-42BB-9CD6-55083B0BD4A3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{46307506-3A12-41F1-A0D6-45312210B890}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Prototyping/Speed data viewer/Speed data viewer.vi</Property>
@@ -1434,56 +1169,6 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D3A162BD-E64C-4983-B80A-8B0BEBD51F92}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Functional speed viewer.exe</Property>
 			</Item>
-			<Item Name="Exe-Simple time series player" Type="EXE">
-				<Property Name="App_INI_aliasGUID" Type="Str">{BE769564-A560-42CA-BAE9-5CE7D407A3D4}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{6B5C185A-C8CE-49D3-B76E-D9A493CABE71}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B96DC64B-F9C1-4064-9A4B-BC042EF02D7F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Exe-Simple time series player</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Exe-Simple time series player</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F6F5B481-B45D-4E37-9754-72464F2F27A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Simple time series player.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Exe-Simple time series player/Exe-Simple timelapse player.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Exe-Simple time series player/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/User Interface/Visualisation/Functional Imaging Viewer/Support files/Icon-time series viewer.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7EA94852-C18D-4C3B-B831-CF95962CA366}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Error message.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[1].properties[0].value" Type="Str">Modal</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Message Window 2.vi</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[2].properties[0].value" Type="Str">Modal</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Simple Time Series Player.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Exe-Simple time series player</Property>
-				<Property Name="TgtF_internalName" Type="Str">Exe-Simple time series player</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 </Property>
-				<Property Name="TgtF_productName" Type="Str">Exe-Simple time series player</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{B7D8BC0B-7FC5-4D50-97E7-9D4BE4DBB2AE}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Simple time series player.exe</Property>
-			</Item>
 			<Item Name="Exe-TIFF exporter" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{CEF03FEC-8C4E-49F3-9376-6CFD391CD551}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{87C451A8-E923-4A6C-90A0-CF373E58F81D}</Property>
@@ -1491,34 +1176,33 @@
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{ED65640E-E40A-4E48-B04D-A0D3195310B7}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Summer 2018</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Exe-TIFF exporter</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Exe-TIFF Exporter version 2.1</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Executable_version 3.2.7</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0D8EDEDB-AFB0-4988-9E71-33D7CF0F22F0}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TIFF Exporter.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Exe-TIFF Exporter version 2.1/TIFF Exporter.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/TIFF Exporter.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Exe-TIFF Exporter version 2.1/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Configuration Files</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Microscope software/Exe-TIFF Exporter version 2.1/RIG-SPECIFIC FILES/Configuration Files</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/Configuration Files</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">User Profiles</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Microscope software/Exe-TIFF Exporter version 2.1/RIG-SPECIFIC FILES/Configuration Files/User Profiles</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/Configuration Files/User Profiles</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/support/Icons/Tiff exporter 1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79CA5BA4-934C-41EF-BCEC-A0EB082CACA8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{291239F0-064C-49DB-B481-B9E38A838FB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Funct TIFF export.vi</Property>
@@ -1556,29 +1240,34 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Exe-Time Series Editor</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Executable_version 3.2.7</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BD188DB6-47F5-41D0-8B7C-90075820E114}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">Time Series Editor.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Exe-Time Series Editor/Exe-Simple timelapse player.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/Exe-Simple timelapse player.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Exe-Time Series Editor/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Configuration Files</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/Exe-Time Series Editor/Configuration Files</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/Configuration Files</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">User Profiles</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Exe-Time Series Editor/Configuration Files/User Profiles</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/Configuration Files/User Profiles</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/User Interface/Visualisation/Functional Imaging Viewer/Support files/Icon-time series viewer.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5D255CB6-C5B4-451D-8FC5-346E30ED00E9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{291239F0-064C-49DB-B481-B9E38A838FB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Time Series editor.vi</Property>
@@ -1653,230 +1342,16 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0115B23E-F401-4A36-9070-EBF24FDE22F5}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Time Series Editor.exe</Property>
 			</Item>
-			<Item Name="Executable" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F9752556-B5F3-4F2F-A3A7-B7C3E931318E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{842B0EB8-E0F3-4463-9AE0-71DFD7EE5857}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B71B40AD-A554-4390-B7EF-90894CE397AF}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Executable</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Executable_version 3.2.0</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B1B2A711-D696-4C82-A956-2E5555B6D5C4}</Property>
-				<Property Name="Bld_supportedLanguage[0]" Type="Str">ChineseS</Property>
-				<Property Name="Bld_supportedLanguage[1]" Type="Str">English</Property>
-				<Property Name="Bld_supportedLanguage[2]" Type="Str">French</Property>
-				<Property Name="Bld_supportedLanguage[3]" Type="Str">German</Property>
-				<Property Name="Bld_supportedLanguage[4]" Type="Str">Japanese</Property>
-				<Property Name="Bld_supportedLanguage[5]" Type="Str">Korean</Property>
-				<Property Name="Bld_supportedLanguageCount" Type="Int">6</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SilverLab Microscopy.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/SilverLab Microscopy.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/Support</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].destName" Type="Str">RIG-SPECIFIC FILES</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[3].destName" Type="Str">FPGA Bitfiles</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/FPGA Bitfiles</Property>
-				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[4].destName" Type="Str">Calibration Files</Property>
-				<Property Name="Destination[4].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files/Calibration Files</Property>
-				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[5].destName" Type="Str">Images</Property>
-				<Property Name="Destination[5].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files/Images</Property>
-				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[6].destName" Type="Str">User Profiles</Property>
-				<Property Name="Destination[6].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files/User Profiles</Property>
-				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[7].destName" Type="Str">Configuration Files</Property>
-				<Property Name="Destination[7].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files</Property>
-				<Property Name="Destination[7].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[8].destName" Type="Str">AOL Driver</Property>
-				<Property Name="Destination[8].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/AOL Driver</Property>
-				<Property Name="Destination[8].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">9</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/support/Icons/Main icon.ico</Property>
-				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Libraries/Network Published Variables.lvlib</Property>
-				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Exe_VardepHideDeployDlg" Type="Bool">true</Property>
-				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
-				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D8727008-820A-4372-A8E2-E1C7994ECF2D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TOP LEVEL VI.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Window has title bar</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Show menu bar</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[10].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[1].properties[10].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Show vertical scroll bar</Property>
-				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
-				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[4].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[5].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[1].properties[5].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[6].type" Type="Str">Show fp when called</Property>
-				<Property Name="Source[1].properties[6].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[7].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[1].properties[7].value" Type="Str">Default</Property>
-				<Property Name="Source[1].properties[8].type" Type="Str">Allow user to close window</Property>
-				<Property Name="Source[1].properties[8].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[9].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[1].properties[9].value" Type="Str">Maximized</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">11</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Larger image.vi</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Pockels cal file load.vi</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Position control window.vi</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-ROI group visualisation.vi</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Dynamically Called VIs/WINDOW-System Config.vi</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Time Series editor.vi</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/User Interface/Visualisation/Functional Imaging Viewer/Functional Imaging Viewer.vi</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Acquisition/Speed Acquisition/Speed graph window.vi</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/support/Libtiff3/DLLs/jpeg62.dll</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/support/Libtiff3/DLLs/libtiff3 (32).dll</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Message Window 2.vi</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[2].properties[0].value" Type="Str">Modal</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/support/Libtiff3/DLLs/libtiff3.dll</Property>
-				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/support/Libtiff3/DLLs/zlib1.dll</Property>
-				<Property Name="Source[22].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/support/Libtiff3/DLLs</Property>
-				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[22].type" Type="Str">Container</Property>
-				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Funct TIFF export.vi</Property>
-				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[23].type" Type="Str">VI</Property>
-				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Idle Ref Image-Channel ctrls state.vi</Property>
-				<Property Name="Source[24].type" Type="Str">VI</Property>
-				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Idle Reference Image Window Management.vi</Property>
-				<Property Name="Source[25].type" Type="Str">VI</Property>
-				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Idle Reference Image Window.vi</Property>
-				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[26].type" Type="Str">VI</Property>
-				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Live Imaging Window.vi</Property>
-				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[27].type" Type="Str">VI</Property>
-				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Window call-Live Imaging.vi</Property>
-				<Property Name="Source[28].type" Type="Str">VI</Property>
-				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Window call-Raw data viewer.vi</Property>
-				<Property Name="Source[29].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Error message.vi</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[3].properties[0].value" Type="Str">Modal</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Window call-ReferenceImage.vi</Property>
-				<Property Name="Source[30].type" Type="Str">VI</Property>
-				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/Window call-Volume Imaging.vi</Property>
-				<Property Name="Source[31].type" Type="Str">VI</Property>
-				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/User Interface/Movement Correction/Ref Plots Viewer/Ref Plots Viewer.vi</Property>
-				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[32].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dynamically Called VIs/AOL Z Cal-Wizard.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Pockels Cal-Cal explorer window.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Pockels Cal-Wizard.vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-AOL Z cal file load.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Coordinates List.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Functional data editor.vi</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">33</Property>
-				<Property Name="TgtF_companyName" Type="Str">SilverLab, UCL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SilverLab Microscope Software</Property>
-				<Property Name="TgtF_internalName" Type="Str">This is the executable build spec for the full SilverLab microscopy application.</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © SilverLab 2014-2018</Property>
-				<Property Name="TgtF_productName" Type="Str">Executable</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{76FD73CC-C26C-4C57-8E1F-07C587D6546E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SilverLab Microscopy.exe</Property>
-			</Item>
 			<Item Name="Executable_x64" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{DDF6DB28-1FAD-467E-9C3C-CD84321851E1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{79BFCB77-B70B-4B6A-87BC-25E7EFF1B8D1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E19F090E-E3CF-4D1F-B296-E4D4DB8511EF}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Executable_x64</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Executable_version 3.2.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Microscope software/Executable_version 3.2.7</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B854067-F558-41E5-8C1A-A3EC19C1550C}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">ChineseS</Property>
 				<Property Name="Bld_supportedLanguage[1]" Type="Str">English</Property>
@@ -1885,39 +1360,39 @@
 				<Property Name="Bld_supportedLanguage[4]" Type="Str">Japanese</Property>
 				<Property Name="Bld_supportedLanguage[5]" Type="Str">Korean</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">6</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">SilverLab Microscopy_x64.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/SilverLab Microscopy_x64.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/SilverLab Microscopy_x64.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/Support_x64</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/Support_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">RIG-SPECIFIC FILES</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">FPGA Bitfiles</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/FPGA Bitfiles</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/FPGA Bitfiles</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[4].destName" Type="Str">Calibration Files</Property>
-				<Property Name="Destination[4].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files/Calibration Files</Property>
+				<Property Name="Destination[4].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/Configuration Files/Calibration Files</Property>
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[5].destName" Type="Str">Images</Property>
-				<Property Name="Destination[5].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files/Images</Property>
+				<Property Name="Destination[5].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/Configuration Files/Images</Property>
 				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[6].destName" Type="Str">User Profiles</Property>
-				<Property Name="Destination[6].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files/User Profiles</Property>
+				<Property Name="Destination[6].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/Configuration Files/User Profiles</Property>
 				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[7].destName" Type="Str">Configuration Files</Property>
-				<Property Name="Destination[7].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/Configuration Files</Property>
+				<Property Name="Destination[7].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/Configuration Files</Property>
 				<Property Name="Destination[7].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[8].destName" Type="Str">AOL Driver</Property>
-				<Property Name="Destination[8].path" Type="Path">/C/Microscope software/Executable_version 3.2.0/RIG-SPECIFIC FILES/AOL Driver</Property>
+				<Property Name="Destination[8].path" Type="Path">/C/Microscope software/Executable_version 3.2.7/RIG-SPECIFIC FILES/AOL Driver</Property>
 				<Property Name="Destination[8].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">9</Property>
@@ -1927,7 +1402,7 @@
 				<Property Name="Exe_VardepHideDeployDlg" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D8727008-820A-4372-A8E2-E1C7994ECF2D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{291239F0-064C-49DB-B481-B9E38A838FB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TOP LEVEL VI.vi</Property>
@@ -2049,6 +1524,28 @@
 				<Property Name="Source[32].itemID" Type="Ref">/My Computer/User Interface/Movement Correction/Ref Plots Viewer/Ref Plots Viewer.vi</Property>
 				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/User Interface/Subpanel Windows/ROI Entry Screen_v3.vi</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].type" Type="Str">VI</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Functional data editor - variable patch.vi</Property>
+				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].type" Type="Str">VI</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Simple Time Series Player.vi</Property>
+				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[35].type" Type="Str">VI</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Message Window.vi</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[36].type" Type="Str">VI</Property>
+				<Property Name="Source[37].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[37].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/support/3rd Party Installers</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dynamically Called VIs/AOL Z Cal-Wizard.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -2073,11 +1570,11 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Dynamically Called VIs/Window-Functional data editor.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">33</Property>
+				<Property Name="SourceCount" Type="Int">38</Property>
 				<Property Name="TgtF_companyName" Type="Str">SilverLab, UCL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SilverLab Microscope Software</Property>
 				<Property Name="TgtF_internalName" Type="Str">This is the executable build spec for the full SilverLab microscopy application.</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © SilverLab 2014-2019</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © SilverLab 2014-2025</Property>
 				<Property Name="TgtF_productName" Type="Str">Executable</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{01D571FA-ED4D-445E-BDA0-50BFDC7D0FB0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SilverLab Microscopy_x64.exe</Property>
@@ -2209,79 +1706,7 @@
 				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/support/3rd Party Installers/WinPcap Installer/WinPcap_4_1_3.exe</Property>
 				<Property Name="Source[0].FileCount" Type="Int">2</Property>
 				<Property Name="Source[0].name" Type="Str">Exe for installer</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Exe for installer</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Installer-Simple time series player" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Rig 3 Software</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{93A0A620-3ACA-411C-B4B9-A0FA6F1C7EAB}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">SilverLab Software</Property>
-				<Property Name="Destination[1].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{945BDC45-A7A9-4906-944B-46E4C132B618}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">Simple time series player</Property>
-				<Property Name="Destination[2].parent" Type="Str">{945BDC45-A7A9-4906-944B-46E4C132B618}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{61C35AC1-879B-4603-91B3-F9E20FEC34E0}</Property>
-				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{17C77391-CCCE-4094-A5C5-F36D874F87D1}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI FlexRIO Runtime 14.0</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{19BFE119-4E22-4F88-9FFA-C154353261BE}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{51A96C0B-8EE0-4007-8A22-CD21D06CB2D1}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Vision Run-Time Engine 2013 SP1</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Logos 20.0</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">3</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Installer-Simple time series player</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Installer-Simple time series player</Property>
-				<Property Name="INST_defaultDir" Type="Str">{61C35AC1-879B-4603-91B3-F9E20FEC34E0}</Property>
-				<Property Name="INST_productName" Type="Str">Installer-Simple time series player</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
-				<Property Name="MSI_distID" Type="Str">{8A0FF01E-0153-4D08-A629-F4D1D7458640}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{ADE19769-C173-4FCF-85A5-99BB81B5773D}</Property>
-				<Property Name="MSI_windowTitle" Type="Str">Simple time series player</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{61C35AC1-879B-4603-91B3-F9E20FEC34E0}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{61C35AC1-879B-4603-91B3-F9E20FEC34E0}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Simple time series player.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Simple time series player</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">SilverLab Software</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Simple time series player</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{B7D8BC0B-7FC5-4D50-97E7-9D4BE4DBB2AE}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Exe-Simple time series player</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Exe-Simple time series player</Property>
+				<Property Name="Source[0].tag" Type="Ref"></Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>

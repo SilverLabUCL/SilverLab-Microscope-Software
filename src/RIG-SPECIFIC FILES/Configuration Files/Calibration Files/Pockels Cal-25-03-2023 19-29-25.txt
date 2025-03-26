@@ -1,0 +1,34 @@
+Cal Wavelength	
+920	
+Prism 1:	744
+Prism 2:	65
+Laser power displayed (mW):	2100
+Pockels bias:	34
+Zoom:	12
+Dwell time:	0.40
+Cal subset indexes	
+1	12
+Cal data	
+Pockels V	No objective
+0	0
+0.1	2
+0.2	5.7
+0.3	17.4
+0.4	37.7
+0.5	64.5
+0.6	95.6
+0.7	127.6
+0.8	159.4
+0.9	187.2
+1	209.9
+1.1	223.5
+1.2	229
+1.3	225.7
+1.4	214.4
+1.5	0
+1.6	0
+1.7	0
+1.8	0
+1.9	0
+2	0
+	

@@ -1,3 +1,9 @@
+### Version 3.2.7
+- DAQ FPGA bitfile for NI 7976R FPGA with 5772(01) AC coupled digitizer integrated. Users will have a choice to use either 
+AC or DC by changing setting in a local configuration files
+- Executable Build specifications updated in labview project file.
+- Documentation updated to reflect newer changes in local configuration file management
+
 ### Version 3.2.6
 - Major optimisation is movement control to make its operation reliable.
      - Optimisations in FPGA DAQ MC firmware (7976R)
