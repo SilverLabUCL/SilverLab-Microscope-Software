@@ -1,3 +1,14 @@
+### Version 3.2.8
+#### Major Update
+- Independent standalone 4ch AOL control software integrated into the code base
+- OOP format code introduced for (XYZ - translation stage control).
+- Bugs causing instability in data acquisition during Z stacks and functional imaging fixed
+- 3D MC stability improved
+- New prototype calibration tool introduced.
+- Prototype (framework only) measure tool introduced.
+- Frame work for parameter sweep introduced in the code, although not functional - other users are encouraged to make it functional.
+- Example OOP code included
+
 ### Version 3.2.7
 - DAQ FPGA bitfile for NI 7976R FPGA with 5772(01) AC coupled digitizer integrated. Users will have a choice to use either 
 AC or DC by changing setting in a local configuration files
